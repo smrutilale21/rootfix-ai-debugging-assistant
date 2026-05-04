@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Virtual environment (rename if needed)
+rootFixAi/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Streamlit config
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
