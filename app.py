@@ -1,10 +1,10 @@
-import streamlit as st
 from datetime import datetime
+
+import streamlit as st
 
 from agent import analyze_bug
 from sample_bugs import SAMPLE_BUGS
 from utils import build_download_report
-
 
 st.set_page_config(
     page_title="AI Debugging & Root Cause Assistant",
@@ -52,8 +52,7 @@ with st.sidebar:
         st.info("No debug reports yet.")
     else:
         for item in reversed(st.session_state.debug_history):
-            st.markdown(
-                f"""
+            st.markdown(f"""
 **{item["bug_type"]}**  
 Language: `{item["language"]}`  
 Severity: `{item["severity"]}`  
@@ -61,8 +60,7 @@ Confidence: `{item["confidence_score"]}%`
 Time: {item["timestamp"]}
 
 ---
-"""
-            )
+""")
 
 
 sample = SAMPLE_BUGS[selected_sample]
@@ -236,11 +234,9 @@ if analyze_button:
 
 st.divider()
 
-st.markdown(
-    """
+st.markdown("""
 ### Why this matters
 
 Developers, students, and freelancers often waste time understanding errors and stack traces.  
 This assistant converts raw debugging information into a structured report containing root cause, fixed code, severity, assumptions, confidence explanation, prevention tips, and downloadable documentation.
-"""
-)
+""")

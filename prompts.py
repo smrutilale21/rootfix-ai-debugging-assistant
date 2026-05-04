@@ -42,7 +42,7 @@ Additional Context:
 
 Return a structured debugging report as valid JSON.
 """
-    
+
 
 RETRY_PROMPT = """
 Your previous response was not valid JSON.

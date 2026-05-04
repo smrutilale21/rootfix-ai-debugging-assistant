@@ -1,11 +1,12 @@
 import os
+
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from prompts import SYSTEM_PROMPT, RETRY_PROMPT, build_debug_prompt
+from logger import setup_logger
+from prompts import RETRY_PROMPT, SYSTEM_PROMPT, build_debug_prompt
 from schemas import DebugReport
 from utils import parse_json
-from logger import setup_logger
 
 load_dotenv()
 

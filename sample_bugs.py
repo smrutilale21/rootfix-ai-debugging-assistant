@@ -6,7 +6,6 @@ SAMPLE_BUGS = {
         "expected_behavior": "",
         "context": "",
     },
-
     "Python TypeError": {
         "language": "Python",
         "code": """def add_numbers(a, b):
@@ -19,7 +18,6 @@ print(result)
         "expected_behavior": "The program should add two numbers and print 30.",
         "context": "Beginner Python function example.",
     },
-
     "JavaScript ReferenceError": {
         "language": "JavaScript",
         "code": """function greetUser() {
@@ -32,7 +30,6 @@ greetUser();
         "expected_behavior": "The function should print the user's name.",
         "context": "Simple JavaScript function demo.",
     },
-
     "React useState Bug": {
         "language": "React",
         "code": """import React from "react";
@@ -57,7 +54,6 @@ export default Counter;
         "expected_behavior": "Clicking the button should increase the count.",
         "context": "React component using state incorrectly.",
     },
-
     "SQL Syntax Error": {
         "language": "SQL",
         "code": """SELECT name age
@@ -69,7 +65,6 @@ ORDER age DESC;
         "expected_behavior": "Fetch user names and ages where age is greater than 18.",
         "context": "Basic SQL query.",
     },
-
     "API Request Error": {
         "language": "Python",
         "code": """import requests
