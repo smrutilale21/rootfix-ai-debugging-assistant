@@ -102,6 +102,51 @@ ai-root-cause-assistant-hackathon/
 
 ---
 
+## 🧠 System Workflow
+
+![RootFixAI Workflow](assets/rootfixai_workflow.png)
+
+This diagram illustrates the end-to-end AI pipeline from user input to structured debugging report generation.
+
+---
+
+## 📸 Application Screenshots
+
+### 🏠 Home Screen
+![Home Screen](assets/home_screen.png)
+
+---
+
+### 🔍 Debug Analysis Output
+![Debug Analysis](assets/debug_analysis.png)
+
+---
+
+### 💻 Fixed Code Section
+![Fixed Code](assets/fixed_code_section.png)
+
+---
+
+### ⚠️ Assumptions
+![Assumptions](assets/assumptions.png)
+
+---
+
+### 🧠 Explanation & Prevention
+![Explanation](assets/explanation&prevention.png)
+
+---
+
+### ⬇️ JSON Report Download
+![JSON Download](assets/jsonDownload_report.png)
+
+---
+
+### 🕘 Session History
+![Session History](assets/session_history.png)
+
+---
+
 # ⚙️ How It Works
 
 ```text
